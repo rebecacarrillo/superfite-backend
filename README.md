@@ -47,6 +47,9 @@ What have I accomplished?
 - AI (AI/ML feature tickets)
 - DOC (Documentation tickets)
 - SEC (Security-related tickets)
+- DEVOPS (specifically related to development environment, make delete later)
+- R&D (research tickets)
+
 
 ``` 
 
@@ -77,4 +80,5 @@ I think I should take a break. Salami is watching the screen as I write. maybe l
 
 I've updated the prefix list to include DEVOPS. I did this to differentiate tasks like "research AWS" from Infra tasks like "Create a docker container and put it on an EC2 Instance" or something 
 
- 
+As I was doing that I realized research should get a prefix too. Can I add the amperasand in the labels, though --- that's the real question. This train of thought camecame from making a ticket to research AWS Activate
+
