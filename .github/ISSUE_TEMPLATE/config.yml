@@ -20,3 +20,11 @@ jobs:
                 labels: [prefix]
               });
             }
+
+blank_issues_enabled: false
+contact_links:
+  - name: Superfite support
+    url: https://github.com/rebecacarrillo
+    about: Please ask and answer questions here.
+  - name: Superfite Bug Reporting
+    about: Please report security vulnerabilities here.
