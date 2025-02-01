@@ -1,0 +1,22 @@
+name: Auto Label Issues
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const title = context.payload.issue.title;
+            const prefix = title.split('-')[0];
+            if (['BE', 'FE', 'SUP', 'INFRA', 'AI', 'DOC', 'SEC'].includes(prefix)) {
+              github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.issue.number,
+                labels: [prefix]
+              });
+            }
