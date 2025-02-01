@@ -72,4 +72,9 @@ a Docker container and some default pieces, but that's out of scope for now
 Had a bit of a bug with HTTPS versus SSH authentication. Turns out I had the wring prefix in the call.
 
 I think I should take a break. Salami is watching the screen as I write. maybe let's put the writing in a seperate folder but w/ever. Right now it's time for a break
+
+----
+
+I've updated the prefix list to include DEVOPS. I did this to differentiate tasks like "research AWS" from Infra tasks like "Create a docker container and put it on an EC2 Instance" or something 
+
  
